@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Bank Account - FlexCred</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Connect Bank Account</h1>
+            <p>Link your bank to import transactions</p>
+        </div>
+
+        <div class="progress-steps">
+            <div class="step">
+                <div class="step-number" style="background: #4CAF50">✓</div>
+                <small>Onboarding</small>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <small>Connect Bank</small>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <small>View Score</small>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <small>Get Insights</small>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <p>Connect your bank account securely to analyze your transactions and calculate your FlexScore.</p>
+        </div>
+
+        <button id="connectButton" class="btn">Connect Account</button>
+    </div>
+
+    <script>
+        document.getElementById('connectButton').addEventListener('click', function() {
+            window.location.href = 'dashboard.html';
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexScore Dashboard - FlexCred</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>FlexScore Dashboard</h1>
+            <p>Your real-time credit score and transactions</p>
+        </div>
+
+        <div class="progress-steps">
+            <div class="step">
+                <div class="step-number" style="background: #4CAF50">✓</div>
+                <small>Onboarding</small>
+            </div>
+            <div class="step">
+                <div class="step-number" style="background: #4CAF50">✓</div>
+                <small>Connect Bank</small>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <small>View Score</small>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <small>Get Insights</small>
+            </div>
+        </div>
+
+        <div class="nav-tabs">
+            <div class="nav-tab active">FlexScore</div>
+            <div class="nav-tab">Transactions</div>
+            <div class="nav-tab">Coach</div>
+        </div>
+
+        <div class="score-display">
+            720
+        </div>
+        
+        <div class="info-card">
+            <p>Based on recent gig-income, rent and expenses</p>
+        </div>
+
+        <div id="transactions" style="margin-top: 2rem;">
+            <h3>Recent Transactions</h3>
+            <div class="info-card" style="margin-top: 1rem;">
+                <div style="display: flex; justify-content: space-between;">
+                    <div>Grocery Store</div>
+                    <div>-$45.67</div>
+                </div>
+                <small style="color: #666;">April 18, 2024</small>
+            </div>
+            <div class="info-card">
+                <div style="display: flex; justify-content: space-between;">
+                    <div>Ride Share Income</div>
+                    <div style="color: #4CAF50">+$128.50</div>
+                </div>
+                <small style="color: #666;">April 17, 2024</small>
+            </div>
+        </div>
+
+        <button class="btn" onclick="window.location.href='insights.html'" style="margin-top: 2rem;">View Financial Insights</button>
+    </div>
+</body>
+</html> 
